@@ -28,7 +28,7 @@ This application uses the `maskpass` library for securely accepting passwords wi
 1.  **Save the code:** Save the provided Python code into a file named `bank_cli.py`.
 2.  **Run the application:**
     ```bash
-    python bank_cli.py
+    python bank.py
     ```
 
 ### Using the Application
