@@ -72,12 +72,5 @@ The application is built around three main classes:
 * **Inherits from:** `Bank`
 * **Special Feature:** Overrides `calculate_interest(fee)` to be used for charging a **service fee** deducted from the balance.
 
-## 📝 Code Notes
 
-* **Encoding Fix:** The initial block of code:
-    ```python
-    if sys.stdout.encoding != 'utf-8':
-        # ... encoding adjustments
-    ```
-    is included to ensure consistent **UTF-8** character output, particularly for displaying the emojis and special characters in the menu across different operating systems/terminals.
 * **Admin Access (Option 8):** The Admin View accesses the private balance attribute using **name mangling** (`account._Bank__bal`), which is a specific Python mechanism for accessing private members of a class hierarchy.
